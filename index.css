@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 91px 0 111px 122px;
+    background-color: #EFEFEF;
+}
+
+h1 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 34px;
+}
+
+.card {
+    width: 791px;
+    padding: 40px 0 29px 45px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card p {
+    width: 700px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.collaj {
+    display: flex;
+    align-items: center;
+}
+
+.collaj img {
+    width: 190px;
+    height: 169px;
+}
+
+.user-information {
+    margin-left: 30px;
+    /* margin-top: 10px; */
+}
+
+.user-information h2 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+}
+
+.user-information img {
+    width: 32px;
+    height: 31px;
+    margin-top: 15px;
+}
+
+/* tablet style  */
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 52.7px 0 64.29px 70.66px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 19.69px;
+    }
+
+    .card {
+        width: 458.121px;
+        padding: 52.7px 0 16.8px 26.06px;
+        border-radius: 17.375px;
+        box-shadow: 0.5791667103767395px 0.5791667103767395px 11.583333969116211px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card p {
+        width: 405.417px;
+        font-size: 12px;
+    }
+
+    .collaj img {
+        width: 110.042px;
+        height: 97.879px;
+    }
+
+    .user-information {
+        margin-left: 17.38px;
+    }
+
+    .user-information h2 {
+        font-size: 17px;
+    }
+
+    .user-information img {
+        width: 18.533px;
+        height: 17.954px;
+        margin-top: 10px;
+    }
+}
+
+/* mobile style  */
+@media screen and (max-width:768px) {
+    .container {
+        padding: 42px 0 53px 36px;
+    }
+
+    h1 {
+        width: 257px;
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .card {
+        width: 308px;
+        padding: 18.47px 0 13px 21px;
+        border-radius: 13.979px;
+        box-shadow: 0.46597224473953247px 0.46597224473953247px 9.31944465637207px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .card p {
+        width: 266px;
+        font-size: 10px;
+    }
+
+    .collaj img {
+        width: 80px;
+        height: 84px;
+    }
+
+    .user-information {
+        margin-left: 13.63px;
+    }
+
+    .user-information h2 {
+        font-size: 14px;
+    }
+
+    .user-information img {
+        width: 14.911px;
+        height: 17.197px;
+        margin-top: 10px;
+    }
+}
